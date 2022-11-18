@@ -1,167 +1,152 @@
-
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de perfil</title>
+    <title>Certificado3-MatiasMarin</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
 </head>
-<body>
-    <header>
-        <section id="header-menus">
-            <h1>Live Scores</h1>
-            <nav>
+<header>
+    <div class="container-1">
+        <nav class="N-1">
+            <div class="xob1 xob">
+                <p>Live Scores</p>
+            </div>
+            <div class="xob2 xob">
                 <ul>
-                    <li><a href="#">SJC Ninjas - 314</a></li>
-                    <lu>
-                    <li><a href="#">CHI Samurai - 0</a></li>
-                    <li><a href="#">BOS Hackers - 13</a></li>
-                    <li><a href="#">BOI Knights - 5</a></li>
-                    <li><a href="#">Find Connections</a></li>
-                    <li><a href="#">Find Connections</a></li>
-                    <li><a href="#">Find Connections</a></li>
-                    <li><a href="#">Find Connections</a></li>
+                    <li>SJC Ninjas - 314</li>
+                    <li>NS Pirates - 159</li>
                 </ul>
-            </nav>
-        </section>
-    </header>
-    <body> 
-        <div id="navlist">
-            <a href="#">DSNN</a>
-            <a href="#">Football</a>
-            <a href="#">Basketball</a>
-            <a href="#">Baseball</a>
-            <a href="#">Soccer</a>
-            <a href="#">More...</a>
-            <div class="search">
-                <form action="#">
-                    <a> <img src="./img/assets/search-light.png" id="imagenRiot"></a>
-                    <a> <img src="./img/assets/hamburger-light.png" id="imagenRiot"></a>
-                    <a> <img src="./img/assets/user-circle-light.png" id="imagenRiot"></a>
-                    <button>
-                        <i class="fa fa-search"
-                            style="font-size: 18px;">
-                        </i>
-                    </button>
-                </form>
+            </div>
+            <div class="xob3 xob">
+                <ul>
+                    <li>CHI Samurai - 0</li>
+                    <li>TUL Wizards - 0</li>
+                </ul>
+            </div>
+            <div class="xob4 xob">
+                <ul>
+                    <li>BOS Hackers - 13</li>
+                    <li>TYO Youkai - 37</li>
+                </ul>
+            </div>
+            <div class="xob5 xob">
+                <ul>
+                    <li>BOI Knights - 5</li>
+                    <li>SEA Sea Lions- 11</li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="container-N">
+        <div class="navup2">
+            <img src="assets/dsnn.jpg" class="dsnn" alt="dsnn">
+            <ul>
+                <li>Football</li>
+                <li>Basketball</li>
+                <li>Baseball</li>
+                <li>Soccer</li>
+                <li>More...</li>
+                <li><img src="assets/search-light.png" alt="" width="47%"></li>
+                <li><img src="assets/hamburger-light.png" alt="" width="47%"></li>
+                <li><img src="assets/user-circle-light.png" alt="" width="47%"></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<body>
+
+    <div class="row">
+        <div class="container">
+            <div class="box1 box">
+                <div class="boxes">
+                    <div class="text">
+                        <h2>Top Stories</h2>
+                    </div>
+                    <div class="text2">
+                        <ul>
+                            <li>Ninjas up big in 5th</li>
+                            <li>Best sports cities</li>
+                            <li>Choi joins Hall of Fame</li>
+                            <li>Tournament underway</li>
+                            <li>Samurai at Wizards</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="box2 box">
+                <div class="boxes">
+                    <div class="customizee">
+                        <h3>Customize your DSNN</h3>
+                    </div>
+                    <div class="signups">
+                        <button>Sign In</button>
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box3 box">
+                <div class="boxes">
+                    <div class="neveer">
+                        <h3>Never miss a play</h3>
+                    </div>
+                    <div class="subscribexd">
+                        <button onclick="alert('The Ninjas Have Won!')" class="btn-3">Subscribe</button>
+                    </div>
+                </div>
             </div>
         </div>
-        <div>
-            <h1 style="color:rgb(36, 36, 36); padding-top:21px;">
-            </h1>
+        <div class="container">
+            <div class="content">
+                <div class="cn-2">
+                    <div class="level">
+                        <div class="live"></div>
+                        <h1>Live</h1>
+                    </div>
+                    <div class="ninjas">
+                        <h1>Ninjas Learning Pirates</h1>
+                    </div>
+                </div>
+                <div class="cn-3">
+                    <div class="shuriken">
+                        <img src="assets/sjc-ninjas.png" width="98%" height="150">
+                    </div>
+                    <div class="vs">
+                        <h2>VS</h2>
+                    </div>
+                    <div class="pirates">
+                        <img src="assets/ns-pirates.png" width="98%" height="150">
+                    </div>
+                </div>
+                <div class="cn-4">
+                    <div class="xob xob1">
+                        <p>San Jose</p>
+                        <h1>Ninjas</h1>
+                        <p>(10 W - 3 L)</p>
+                        <h1 id="count" onclick="add1()">319</h1>
+                    </div>
+                    <div class="xob xob2">
+                        <p>0:13 remaining</p>
+                        <p>5th period</p>
+                    </div>
+                    <div class="xob xob3">
+                        <p>Nova Scotia</p>
+                        <h1>Pirates</h1>
+                        <p>(12 W - 2 L)</p>
+                        <h1 id="count2" onclick="add2()">164</h1>
+                    </div>
+                </div>
+                <div class="cn-5">
+                    <p>A conservative match between the two top-perforning sides in the Central</p>
+                    <p>League Division with a number 1 seed at skate... <label>get live updates</label></p>
+                </div>
+            </div>
         </div>
-    <main>
-        <section id="articles">
-            <section class="profile">
-                <article class="article">
-                    <header class="blue-header"></header>
-                    <main>
-                        <header>
-                            <img src="images/phil-s.jpg" alt="phil image">
-                            <h2>Jane Doe</h2>
-                            <p><img src="icons/map-marker.png" alt="map-marker"> Seattle</p>
-                        </header>
-                        <div class="content">
-                            <ul>
-                                <li>Developer</li>
-                                <li>Engineer</li>
-                                <li>Problem Solver</li>
-                            </ul>
-                            <p>Master of shadows and the Internet!</p>
-                        </div>
-                        <footer>
-                            <img src="icons/gear.png" alt="gear">
-                            <a href="#" onclick="changeProfile()">edit profile</a>
-                        </footer>
-                    </main>
-                </article>
-            </section>
-            <section class="education">
-                <article class="article education-article">
-                    <header>
-                        <h4>Education</h4>
-                    </header>
-                    <div class="content">
-                        <h2>Coding Dojo - Full Stack Bootcamp</h2>
-                        <p>
-                            <span>Dec 2019 - Mar 2020</span>
-                        </p>
-                        <p>
-                            Triple black belt in Python, MERN, and C#...
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus magnam est ducimus voluptate fugit asperiores voluptatibus sint similique, necessitatibus explicabo id eum aut deserunt vitae nemo distinctio consectetur eius iure.
-                        </p>
-                    </div>
-                </article>
-            </section>
-        </section>
-        <section id="connections">
-            <section class="connections-request">
-                <article class="article connection-article">
-                    <header><h4><span class="circle">2</span>Connection Request</h4></header>
-                    <div class="content">
-                        <div class="con-req-row" id="req0">
-                            <div class="con-req-user">
-                                <img src="images/adrien-s.jpg" alt="adrien image">
-                                Adrien
-                            </div>
-                            <div class="con-req-btn">
-                                <img src="icons/accept-circle.png" alt="accept circle" onclick="addConnection(0)">
-                                <img src="icons/close-circle.png" alt="close circle" onclick="deleteConReq(0)">
-                            </div>
-                        </div>
-                        <div class="con-req-row" id="req1">
-                            <div class="con-req-user">
-                                <img src="images/alayne-s.jpg" alt="alayne image">
-                                Alayne
-                            </div>
-                            <div class="con-req-btn">
-                                <img src="icons/accept-circle.png" alt="accep circle" onclick="addConnection(1)">
-                                <img src="icons/close-circle.png" alt="close circle" onclick="deleteConReq(1)">
-                            </div>
-                        </div>
-                    </div>
-                </article>
-            </section>
-            <section class="your-conecctions">
-                <article class="article connection-article">
-                    <header>
-                        <h4><span class="oval">500+</span>Your Connections</h4>
-                    </header>
-                    <div class="content">
-                        <div class="con-req-row">
-                            <div class="con-req-user">
-                                <img src="images/anne-s.jpg" alt="anne image">
-                                Anne s
-                            </div>
-                        </div>
-                        <div class="con-req-row">
-                            <div class="con-req-user">
-                                <img src="images/todd-s.jpg" alt="todd image">
-                                Anne s
-                            </div>
-                        </div>
-                        <div class="con-req-row">
-                            <div class="con-req-user">
-                                <img src="images/arry-s.jpg" alt="arry image">
-                                Anne s
-                            </div>
-                        </div>
-                        <div class="con-req-row">
-                            <div class="con-req-user">
-                                <img src="images/jane-m.jpg" alt="jane image">
-                                Anne s
-                            </div>
-                        </div>
-                    </div>
-                    <footer>
-                        <a href="#">View More</a>
-                    </footer>
-                </article>
-            </section>
-        </section>
-    </main>
-    <script src="js/myscript.js"></script>
+    </div>
 </body>
+    <script src="script.js"></script>
+<footer>
+</footer>
 </html>
